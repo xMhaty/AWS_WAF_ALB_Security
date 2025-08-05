@@ -98,7 +98,7 @@ Example: `http://<ELB DNS>/product?item=securitynumber'+OR+1=1--`
 **Query Strings test :** 
 Example: `http://<ELB DNS>/?admin=123456`
 
-<img width="1258" height="114" alt="image" src="https://github.com/user-attachments/assets/c79d97c6-46ad-45b9-96d6-5e54d6f24f51" />
+<img width="1917" height="162" alt="image" src="https://github.com/user-attachments/assets/e12c6204-a48b-4cee-af87-38c4898e7419" />
 ⚠️ This request is also allowed before WAF is configured.
 
 ### ✅ Step 5 -  Creating AWS WAF Web ACL
