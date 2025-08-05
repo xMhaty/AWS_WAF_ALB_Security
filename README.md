@@ -9,7 +9,7 @@ This project is designed to simulate a real-world scenario where application sec
 ---
 ## 🗺️ Architecture Diagram
 
-<img width="1920" height="1080" alt="architecture" src="https://github.com/user-attachments/assets/d24d5b6a-5fe3-42db-8cb2-3e6c61aa8b78" />
+<img width="1920" height="1080" alt="architecture" src="https://github.com/user-attachments/assets/56a74ab1-b02a-4452-8805-2fcaba984abb" />
 
 ---
 
